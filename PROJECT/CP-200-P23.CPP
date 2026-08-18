@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main ();
+int main ()
 {
   float a,b,c,avg,total;
   clrscr();
@@ -18,7 +18,7 @@ int main ();
   printf("Average: %.2f",avg);
   
   t = a + b + c;
-  printf("Total: %.2f",t);
+  printf("Total: %.2f",total);
   
   getch();
   return 0;
